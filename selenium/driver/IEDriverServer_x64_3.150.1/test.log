@@ -1,0 +1,5 @@
+07/06/2021 07:35:29 AM: DEBUG: this is debug message
+07/06/2021 07:35:30 AM: INFO: This is info message
+07/06/2021 07:35:30 AM: WARNING: this is warning message
+07/06/2021 07:35:30 AM: ERROR: this is error message
+07/06/2021 07:35:30 AM: CRITICAL: this is critical message
