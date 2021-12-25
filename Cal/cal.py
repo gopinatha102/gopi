@@ -1,11 +1,16 @@
 # find the given number is even or odd number using function concepts
-from calculator import *
+"""import calculator as cal
+import time
 
+d = cal.add(10,20)
+f = cal.sub(20,10)
+print("add=", d)
+print("Sub=", f)
+print(dir(cal))
+cal.f()"""
+from random import *
 
-"""def main():
-    p = add(10, 20)
-"""
-
-
-if __name__ == "__main__":
-    add(10,20)
+for i in range(10):
+    n = chr(randint(65, 65 + 25))
+    n2 = ord(n)
+    print("n=", n, n2)
