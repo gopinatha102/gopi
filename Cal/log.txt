@@ -1,0 +1,36 @@
+INFO:root:A New Request Came
+INFO:root:Request Processing Completed
+INFO:root:A New Request Came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:/Users/DELL/PycharmProjects/Cal/text.py", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Request Processing Completed
+INFO:root:A New Request Came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/Users/DELL/PycharmProjects/Cal/text.py", line 6, in <module>
+    y=int(input("Enter the second Number:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request Processing Completed
+INFO:root:A New Request Came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/Users/DELL/PycharmProjects/Cal/text.py", line 6, in <module>
+    y=int(input("Enter the second Number:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+ERROR:root:******************************
+Traceback (most recent call last):
+  File "C:/Users/DELL/PycharmProjects/Cal/text.py", line 6, in <module>
+    y=int(input("Enter the second Number:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request Processing Completed
+INFO:root:A New Request Came
+INFO:root:A New Request Came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:/Users/DELL/PycharmProjects/Cal/text.py", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Request Processing Completed
