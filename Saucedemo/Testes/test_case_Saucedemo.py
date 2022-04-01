@@ -15,6 +15,8 @@ sys.path.append("C:\\Users\\DELL\\PycharmProjects\\Saucedemo")
 
 @allure.severity(allure.severity_level.NORMAL)
 class Test_case_0007(Baseclass):
+
+    @pytest.mark.sanity
     @pytest.mark.skip
     @allure.severity(allure.severity_level.MINOR)
     def test_login_page(self, getData):
@@ -66,6 +68,7 @@ class Test_case_0007(Baseclass):
                 self.driver.save_screenshot("image.png")
             self.driver.refresh()
 
+    @pytest.mark.sanity
     @step("Login correct password and user Name Display Home Page  ")
     @allure.severity(allure.severity_level.CRITICAL)
     def test_case_home_page(self):
@@ -96,7 +99,7 @@ class Test_case_0007(Baseclass):
         print(count)
         assert count > 5
 
-    @pytest.mark.skip
+    @pytest.mark.xfail
     @step("Login correct password and user Name Display List Count Cart  ")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_Cart_list(self):

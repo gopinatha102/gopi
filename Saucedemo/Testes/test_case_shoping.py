@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from POM.Home__Page import Home_page
 from POM.Shoping_page import Shoping_Process
 from utilities.BaseClass import Baseclass
@@ -7,6 +9,7 @@ from utilities.BaseClass import Baseclass
 
 class Test_case_15(Baseclass):
 
+    @pytest.mark.sanity
     def test_shoping_process(self):
         self.Login_setup()
         add_chart = Home_page(self.driver)
@@ -31,7 +34,7 @@ class Test_case_15(Baseclass):
         time.sleep(10)
         shoping.log_out_button()
         time.sleep(10)
-        assert actual_amount == total
+        assert actual_amount == str(total)
         #assert text.title() == ("Checkout: Complete!")
 
 
