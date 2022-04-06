@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from utilities.BaseClass import Baseclass
 from POM.Switch_to_facebook import Switch_To_Facebook_Page
 
@@ -22,6 +24,15 @@ class Test_case_100(Baseclass):
         facebook_page.gender_male_radio_button()
         facebook_page.sign_in_button()
         """
+    @pytest.mark.regression
+    def test_case(self):
+        print("Switch to Facebook Page is Started ")
+        self.Login_setup()
+        facebook_page = Switch_To_Facebook_Page(self.driver)
+        time.sleep(10)
+        facebook_page.social_facebook_click()
+        time.sleep(20)
+
 
 
 

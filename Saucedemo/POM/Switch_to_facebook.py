@@ -24,6 +24,8 @@ class Switch_To_Facebook_Page:
     Select_year_filed = "//select[@id='year']"
     Watch_video = "//a[@aria-label='Watch Video']"
     Unmute = "//div[@aria-label='Unmute']"
+    see_all_click = "(//span[contains(text(),'See all')])[1]"
+
 
     def __init__(self, driver):
         self.driver = driver
@@ -41,9 +43,11 @@ class Switch_To_Facebook_Page:
                 self.driver.switch_to.window(handle)
                 print(handle)
                 # using  explicitly wait class
-                self.watch_video()
+                #self.watch_video()
+                #time.sleep(20)
+                #self.unmute_button()
                 time.sleep(20)
-                self.unmute_button()
+                self.see_all_click_button()
                 time.sleep(20)
 
                 """
@@ -123,3 +127,6 @@ class Switch_To_Facebook_Page:
     def cookies_display(self):
         cookies = self.driver.get_cookies()
         print(len(cookies))
+
+    def see_all_click_button(self):
+        return self.driver.find_element(by=By.XPATH, value=Switch_To_Facebook_Page.see_all_click).click()
