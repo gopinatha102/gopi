@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.2 on win32)" generated="20230312 12:23:26.629" rpa="false" schemaversion="3">
+<suite id="s1" name="testDemo" source="C:\Users\DELL\PycharmProjects\pythonProject1\Robot_Automation_Framework\TestDemo\testDemo.robot">
+<test id="s1-t1" name="Validate UnSuccesful Login" line="10">
+<kw name="Open the browser with the Mortgage payment url">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<arg>executable_path=C:/Users/DELL/OneDrive/Documents/chromedriver</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230312 12:23:26.817" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20230312 12:23:29.999" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230312 12:23:29.999" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.180 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00D3E563]
+	(No symbol) [0x00CC7FC1]
+	(No symbol) [0x00BBD04D]
+	(No symbol) [0x00BDF6B4]
+	(No symbol) [0x00BDA97C]
+	(No symbol) [0x00BD82E9]
+	(No symbol) [0x00C0F056]
+	(No symbol) [0x00C0EB2A]
+	(No symbol) [0x00C08386]
+	(No symbol) [0x00BE163C]
+	(No symbol) [0x00BE269D]
+	GetHandleVerifier [0x00FD9B82+2658722]
+	GetHandleVerifier [0x00FCCB84+2605476]
+	GetHandleVerifier [0x00DE825A+620666]
+	GetHandleVerifier [0x00DE6E80+615584]
+	(No symbol) [0x00CD05EC]
+	(No symbol) [0x00CD5958]
+	(No symbol) [0x00CD5A45]
+	(No symbol) [0x00CE050B]
+	BaseThreadInitThunk [0x75A37D69+25]
+	RtlInitializeExceptionChain [0x777DBB9B+107]
+	RtlClearBits [0x777DBB1F+191]
+</msg>
+<status status="FAIL" starttime="20230312 12:23:26.817" endtime="20230312 12:23:30.018"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20230312 12:23:30.018" endtime="20230312 12:23:30.018"/>
+</kw>
+<status status="FAIL" starttime="20230312 12:23:26.817" endtime="20230312 12:23:30.018"/>
+</kw>
+<kw name="Fill the login From">
+<status status="NOT RUN" starttime="20230312 12:23:30.018" endtime="20230312 12:23:30.018"/>
+</kw>
+<kw name="wait untile it checked and display error message">
+<status status="NOT RUN" starttime="20230312 12:23:30.018" endtime="20230312 12:23:30.018"/>
+</kw>
+<kw name="verify error message is correct">
+<status status="NOT RUN" starttime="20230312 12:23:30.018" endtime="20230312 12:23:30.018"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230312 12:23:30.018" endtime="20230312 12:23:30.018"/>
+</kw>
+<status status="FAIL" starttime="20230312 12:23:26.817" endtime="20230312 12:23:30.018">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.180 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00D3E563]
+	(No symbol) [0x00CC7FC1]
+	(No symbol) [0x00BBD04D]
+	(No symbol) [0x00BDF6B4]
+	(No symbol) [0x00BDA97C]
+	(No symbol) [0x00BD82E9]
+	(No symbol) [0x00C0F056]
+	(No symbol) [0x00C0EB2A]
+	(No symbol) [0x00C08386]
+	(No symbol) [0x00BE163C]
+	(No symbol) [0x00BE269D]
+	GetHandleVerifier [0x00FD9B82+2658722]
+	GetHandleVerifier [0x00FCCB84+2605476]
+	GetHandleVerifier [0x00DE825A+620666]
+	GetHandleVerifier [0x00DE6E80+615584]
+	(No symbol) [0x00CD05EC]
+	(No symbol) [0x00CD5958]
+	(No symbol) [0x00CD5A45]
+	(No symbol) [0x00CE050B]
+	BaseThreadInitThunk [0x75A37D69+25]
+	RtlInitializeExceptionChain [0x777DBB9B+107]
+	RtlClearBits [0x777DBB1F+191]
+</status>
+</test>
+<doc>To validate the Login from</doc>
+<status status="FAIL" starttime="20230312 12:23:26.634" endtime="20230312 12:23:30.018"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testDemo">testDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

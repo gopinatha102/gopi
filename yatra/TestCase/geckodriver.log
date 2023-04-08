@@ -1,0 +1,70 @@
+1650300534808	geckodriver	INFO	Listening on 127.0.0.1:58915
+1650300537856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileQg3aKR"
+1650300538675	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileQg3aKR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58916/devtools/browser/ed989f11-69db-4784-b0bf-2b9415ebe908
+1650300542415	Marionette	INFO	Listening on port 58949
+Read port: 58949
+1650300542515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650300545910	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.yatra.com/cFvXne/A1tDCF/BR/ssx5/TOCBLV/Yrk3pzb2EY/ADNEAQ/WEsJenla/bwo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650300592044	Marionette	INFO	Stopped listening on port 58949
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650300654617	geckodriver	INFO	Listening on 127.0.0.1:59089
+1650300657661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59090" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileGUFh75"
+1650300658459	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileGUFh75\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59090/devtools/browser/bbc3e74e-9986-43e7-b0c8-d3796c6be6cd
+1650300661794	Marionette	INFO	Listening on port 59119
+Read port: 59119
+1650300661886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650300664504	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.yatra.com/cFvXne/A1tDCF/BR/ssx5/TOCBLV/Yrk3pzb2EY/ADNEAQ/WEsJenla/bwo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650300676182	Marionette	INFO	Stopped listening on port 59119
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650300957226	geckodriver	INFO	Listening on 127.0.0.1:59511
+1650300960271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59512" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileskHVHl"
+1650300961090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileskHVHl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59512/devtools/browser/e29f0ba4-8f5e-47ec-8bf8-4b374baea02a
+1650300963846	Marionette	INFO	Listening on port 59540
+Read port: 59540
+1650300963887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650300969623	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.yatra.com/cFvXne/A1tDCF/BR/ssx5/TOCBLV/Yrk3pzb2EY/ADNEAQ/WEsJenla/bwo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650301056860	Marionette	INFO	Stopped listening on port 59540
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650302329908	geckodriver	INFO	Listening on 127.0.0.1:55995
+1650302332977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55996" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile2P6EEL"
+1650302333779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile2P6EEL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55996/devtools/browser/6a9d3173-8237-484d-b636-a2384d8755eb
+1650302336522	Marionette	INFO	Listening on port 56023
+Read port: 56023
+1650302336599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650302339393	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.yatra.com/cFvXne/A1tDCF/BR/ssx5/TOCBLV/Yrk3pzb2EY/ADNEAQ/WEsJenla/bwo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650302622063	Marionette	INFO	Stopped listening on port 56023
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650302872524	geckodriver	INFO	Listening on 127.0.0.1:56596
+1650302875559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileBslMaK"
+1650302876198	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileBslMaK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56597/devtools/browser/bbdbd5e7-4fe3-4c51-8904-5f4c94250ed1
+1650302879253	Marionette	INFO	Listening on port 56624
+Read port: 56624
+1650302879405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650302881675	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.yatra.com/cFvXne/A1tDCF/BR/ssx5/TOCBLV/Yrk3pzb2EY/ADNEAQ/WEsJenla/bwo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650302900872	Marionette	INFO	Stopped listening on port 56624
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

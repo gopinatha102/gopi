@@ -419,3 +419,38 @@
 2022-04-06 21:35:03,884 :INFO : test_Cart_list :Test Cart List is Started
 2022-04-06 21:49:49,299 :INFO : test_case_home_page :Home Page is Login Started 
 2022-04-06 21:51:09,892 :INFO : test_Cart_list :Test Cart List is Started
+2022-05-14 22:29:23,483 :INFO : test_case_home_page :Home Page is Login Started 
+2022-05-14 22:30:13,079 :INFO : test_Cart_list :Test Cart List is Started
+2022-08-10 08:10:50,020 :INFO : test_case_home_page :Home Page is Login Started 
+2022-08-10 08:36:01,093 :INFO : test_case_home_page :Home Page is Login Started 
+2022-08-10 08:36:35,390 :INFO : test_Cart_list :Test Cart List is Started
+2022-08-10 08:38:46,712 :INFO : test_case_home_page :Home Page is Login Started 
+2022-08-10 08:39:25,653 :INFO : test_Cart_list :Test Cart List is Started
+2022-08-10 08:41:11,327 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:11,760 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:11,760 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:20,389 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:20,389 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:20,850 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:20,850 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:20,852 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:20,852 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:29,456 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:29,456 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:29,456 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:30,052 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:30,052 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:30,052 :INFO : test_login_page :Epic sadface: Username and password do not match any user in this service
+2022-08-10 08:41:30,052 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:30,052 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:30,052 :INFO : test_login_page :Login Test Case 3 Executed Successfully 
+2022-08-10 08:41:41,402 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:41,402 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:41,402 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:41,402 :INFO : test_login_page :Login Page Start
+2022-08-10 08:41:42,017 :INFO : test_login_page :Login Test Case 1 Executed Successfully 
+2022-08-10 08:41:42,017 :INFO : test_login_page :Login Test Case 1 Executed Successfully 
+2022-08-10 08:41:42,017 :INFO : test_login_page :Login Test Case 1 Executed Successfully 
+2022-08-10 08:41:42,017 :INFO : test_login_page :Login Test Case 1 Executed Successfully 
+2022-08-10 08:41:51,037 :INFO : test_case_home_page :Home Page is Login Started 
+2022-08-10 08:42:29,962 :INFO : test_Cart_list :Test Cart List is Started

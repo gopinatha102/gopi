@@ -17,7 +17,7 @@ sys.path.append("C:\\Users\\DELL\\PycharmProjects\\Saucedemo")
 class Test_case_0007(Baseclass):
 
     @pytest.mark.sanity
-    @pytest.mark.skip
+    #@pytest.mark.skip
     @allure.severity(allure.severity_level.MINOR)
     def test_login_page(self, getData):
         log_file = self.getLogger()
