@@ -36,7 +36,7 @@ class Demo_Auto_Suggestion:
         time.sleep(2)
         all_dates = driver.find_elements(By.XPATH,"//div[@id='monthWrapper']//tbody//td[@class!='inActiveTD']")
         for date in all_dates:
-            if date.get_attribute() in "09/04/2023":
+            if date.get_attribute("data-date") in "09/04/2023":
                 date.click()
                 time.sleep(5)
                 break
